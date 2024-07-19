@@ -1,0 +1,42 @@
+geo:
+  binning_size: 1000
+  france_min_lat: 41
+  france_min_lng: -5
+  france_max_lat: 52
+  france_max_lng: 10
+thresholds:
+  n_duplicated_coords: 20
+output_model_files:
+  nn: lbc_extra_indexes/outputs/nn.h5
+output_predictions:
+  nn: lbc_extra_indexes/outputs/nn_predictions.csv
+indexes:
+  rooms:
+    < 75:
+      - 0
+      - 75
+    75_100:
+      - 75
+      - 100
+    100_150:
+      - 100
+      - 150
+    150_plus:
+      - 150
+      - .inf
+  energy_certificate:
+    A: A
+    B: B
+    C: C
+    D: D
+    E: E
+    F: F
+    G: G
+  emissions_certificate:
+    A: A
+    B: B
+    C: C
+    D: D
+    E: E
+    F: F
+    G: G

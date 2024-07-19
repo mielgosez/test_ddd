@@ -1,0 +1,8 @@
+property_type:
+  houses: 'House'
+  flats: 'Department'
+operation:
+  sell: 1
+  rent: 3
+publisher_type:
+  professional: 3

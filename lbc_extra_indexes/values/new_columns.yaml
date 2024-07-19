@@ -1,0 +1,5 @@
+price_m2: 'price_m2'
+lat_bin: 'lat_bin'
+lng_bin: 'lng_bin'
+prediction: 'prediction'
+price_ratio: 'price_ratio'
